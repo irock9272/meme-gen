@@ -8,18 +8,7 @@ public class RandomGenerator {
     };
 
     private static final String[] VERBS = {
-        "run", "jump", "swim", "dance", "read", "write", "sing", "talk", "laugh", "cry",
-        "eat", "drink", "sleep", "wake", "smile", "frown", "think", "dream", "plan",
-        "build", "create", "destroy", "paint", "draw", "play", "work", "shop", "travel",
-        "drive", "fly", "climb", "walk", "hike", "cook", "bake", "speak", "listen", 
-        "watch", "explore", "teach", "learn", "study", "meditate", "relax", "exercise",
-        "skip", "hop", "jog", "lift", "throw", "catch", "kick", "shoot", "score", 
-        "win", "lose", "cheer", "boo", "whistle", "clap", "hug", "kiss", "shake", 
-        "touch", "feel", "sense", "imagine", "wonder", "ponder", "reflect", "consider",
-        "evaluate", "judge", "choose", "select", "prefer", "decide", "agree", 
-        "disagree", "argue", "debate", "discuss", "share", "borrow", "lend", "give", 
-        "take", "accept", "reject", "receive", "send", "delivering", "pack", "unwrap", 
-        "open", "close", "finish", "begging"
+        "running", "jumping", "swimming", "dancing", "reading", "writing", "singing", "talking", "laughing", "crying", "eating", "drinking", "sleeping", "waking", "smiling", "frowning", "thinking", "dreaming", "planning", "building", "creating", "destroying", "painting", "drawing", "playing", "working", "shopping", "traveling", "driving", "flying", "climbing", "walking", "hiking", "cooking", "baking", "speaking", "listening", "watching", "exploring", "teaching", "learning", "studying", "meditating", "relaxing", "exercising", "skipping", "hopping", "jogging", "lifting", "throwing", "catching", "kicking", "shooting", "scoring", "winning", "losing", "cheering", "booing", "whistling", "clapping", "hugging", "kissing", "shaking", "touching", "feeling", "sensing", "imagining", "wondering", "pondering", "reflecting", "considering", "evaluating", "judging", "choosing", "selecting", "preferring", "deciding", "agreeing", "disagreeing", "arguing", "debating", "discussing", "sharing", "borrowing", "lending", "giving", "taking", "accepting", "rejecting", "receiving", "sending", "delivering", "packing", "unwrapping", "opening", "closing", "finishing", "beginning", "figging", "froting",
     };
 
     public static void main(String[] args) {

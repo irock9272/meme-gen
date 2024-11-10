@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Meme Generator (By Crungle Squad)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Random Meme Generator (Makes Random Nationality and Verb)</h1>
+    <div id="result"></div>
+    <button onclick="generateRandom()">Generate Meme</button>
+
+    <script>
+        const nationalities = [
+            "American", "Canadian", "Mexican", "Brazilian", "British", "French", "German",
+            "Italian", "Spanish", "Chinese", "Japanese", "Korean", "Indian", "Australian",
+            "Russian", "South African", "Egyptian", "Nigerian", "Kenyan", "Argentinian"
+        ];
+
+        const verbs = [
+            "running", "jumping", "swimming", "dancing", "reading", "writing", "singing", "talking", "laughing", "crying", "eating", "drinking", "sleeping", "waking", "smiling", "frowning", "thinking", "dreaming", "planning", "building", "creating", "destroying", "painting", "drawing", "playing", "working", "shopping", "traveling", "driving", "flying", "climbing", "walking", "hiking", "cooking", "baking", "speaking", "listening", "watching", "exploring", "teaching", "learning", "studying", "meditating", "relaxing", "exercising", "skipping", "hopping", "jogging", "lifting", "throwing", "catching", "kicking", "shooting", "scoring", "winning", "losing", "cheering", "booing", "whistling", "clapping", "hugging", "kissing", "shaking", "touching", "feeling", "sensing", "imagining", "wondering", "pondering", "reflecting", "considering", "evaluating", "judging", "choosing", "selecting", "preferring", "deciding", "agreeing", "disagreeing", "arguing", "debating", "discussing", "sharing", "borrowing", "lending", "giving", "taking", "accepting", "rejecting", "receiving", "sending", "delivering", "packing", "unwrapping", "opening", "closing", "finishing", "beginning", "figging", "froting",
+        ];
+
+        function generateRandom() {
+            const randomNationality = nationalities[Math.floor(Math.random() * nationalities.length)];
+            const randomVerb = verbs[Math.floor(Math.random() * verbs.length)];
+            document.getElementById('result').innerText = `Random Nationality: ${randomNationality}\nRandom Verb: ${randomVerb}`;
+        }
+    </script>
+</body>
+</html>
