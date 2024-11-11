@@ -1,3 +1,4 @@
+// just use the website!
 import java.util.Random;
 
 public class RandomGenerator {
